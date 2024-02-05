@@ -1,0 +1,27 @@
+{
+  "name": "devextreme-webpack-react",
+  "version": "1.0.0",
+  "description": "DevExtreme React bundled with Vite example",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:devextreme-bundle": "vite build --config vite.config.devextreme.bundle.js",
+    "preview": "vite preview"
+  },
+  "author": "DevExpress",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.0.4",
+    "@vitejs/plugin-react": "^4.0.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0"
+  },
+  "dependencies": {
+    "devextreme": "23.2.4",
+    "devextreme-react": "23.2.4",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
