@@ -13,10 +13,10 @@
   "author": "DevExpress",
   "license": "MIT",
   "devDependencies": {
-    "vite": "^4.0.4",
-    "@vitejs/plugin-react": "^4.0.0",
     "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.0"
+    "@types/react-dom": "18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.0.4"
   },
   "dependencies": {
     "devextreme": "23.2.15",
